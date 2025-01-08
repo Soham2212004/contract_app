@@ -1,0 +1,138 @@
+.point-page {
+  margin-top: -30px;
+  transition: margin-left 0.5s ease;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #1a456d;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.point-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f4f1f1;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.dropdown-add-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.fields-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.field label {
+  font-weight: bold;
+}
+
+.field input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-button {
+  padding: 5px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 3%;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.add-points-button {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #373030;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+
+.add-points-button:hover {
+  background-color: green;
+}
+
+.points-compressed .point-page {
+  margin-left: 250px;
+}
+
+.points-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.points-table th,
+.points-table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.points-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.points-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.points-table tr:hover {
+  background-color: #f1f1f1;
+}
